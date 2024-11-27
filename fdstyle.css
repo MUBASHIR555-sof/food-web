@@ -1,0 +1,14 @@
+img.slide{
+    height: 700px;
+   
+}
+img.move{
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px gray;
+    animation: slider 10s linear infinite;
+}
+@keyframes slider{
+    0%{background-image: url(food1.jpg);}
+    30%{background-image: url(food3.avif);}
+    60%{background-image: url(food4.jpeg);}
+}
